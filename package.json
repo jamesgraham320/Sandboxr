@@ -5,15 +5,10 @@
   "devDependencies": {
     "jest-expo": "26.0.0",
     "react-native-clean-project": "^1.0.8",
-    "react-native-scripts": "1.13.1",
     "react-test-renderer": "16.3.0-alpha.1"
   },
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
     "test": "jest"
   },
   "jest": {
@@ -22,7 +17,7 @@
   "dependencies": {
     "expo": "^26.0.0",
     "react": "16.3.0-alpha.1",
-    "react-native": "0.54.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
     "react-native-linear-gradient": "^2.4.0",
     "react-native-responsive-dimensions": "^1.0.2",
     "react-native-sketch": "^1.1.0"
