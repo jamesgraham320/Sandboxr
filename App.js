@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, StatusBar, Image } from "react-native";
 import { styles } from "./styles.js";
-import LinearGradient from "react-native-linear-gradient";
+import { LinearGradient } from "expo";
 
 export default class App extends React.Component {
   render() {
